@@ -13,3 +13,7 @@ const greet = (student) => `Hello, ${student.name}! You are in year ${student.ye
 students.forEach((student) => {
   console.log(greet(student));
 });
+
+// --- Task 2 ---
+const studentNames = students.map((student) => student.name);
+console.log(studentNames);
